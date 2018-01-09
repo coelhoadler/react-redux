@@ -4,5 +4,5 @@ import ReactDOM from 'react-dom';
 import ClassComponent from './classComponent';
 
 ReactDOM.render(
-    <ClassComponent value="hello world" />
+    <ClassComponent initialValue={10} />
 , document.querySelector("#app"));
